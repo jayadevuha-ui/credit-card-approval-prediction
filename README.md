@@ -1,10 +1,11 @@
 # Credit Card Approval Prediction
 
-An academic group project focused on exploring credit application data and building classification models to predict approval outcomes.
+A Team 3 project completed as part of the UNP ML Academic Internship. This project explores credit application data and builds classification models to predict approval outcomes.
 
 ## Project overview
 
-The notebook follows an end-to-end machine-learning workflow, including:
+The notebook contains the end-to-end machine-learning workflow:
+
 - Data inspection, cleaning, and exploratory analysis
 - Feature preparation and preprocessing
 - Classification model development and comparison
@@ -20,37 +21,34 @@ Logistic Regression, K-Nearest Neighbors, Decision Tree, Random Forest, XGBoost,
 
 | File | Description |
 | --- | --- |
-| `credit-card-approval-prediction.ipynb` | Main analysis and modelling notebook |
+| `credit-card-approval-prediction.ipynb` | Main analysis and modelling notebook, including saved cell outputs |
+| `credit card_dataset.csv` | Dataset used by the notebook |
 | `requirements.txt` | Python dependencies |
+| `Credit_Card_Approval_Presentation.pptx` | Project presentation |
 
 ## Getting started
 
 1. Clone this repository.
-2. Install dependencies:
+2. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Obtain the original project CSV, named `credit card_dataset.csv`, from the course/internship source.
-4. Place it in the repository root or in a folder named `data/`.
-5. Open the notebook in Jupyter or Google Colab and run it from top to bottom.
+3. Open `credit-card-approval-prediction.ipynb` in Jupyter Notebook, JupyterLab, or Google Colab.
+4. Run the notebook from top to bottom if you want to reproduce the analysis. Existing saved outputs are included for reference.
 
-**The dataset is not included** because its redistribution terms have not been established. Use the original authorised source and check its licence before sharing it.
+The notebook expects the dataset file `credit card_dataset.csv` in the repository root.
 
-## Academic context and team
+## Team
 
-Completed as part of the **UNP ML Academic Internship**. This was a collaborative academic project completed by **Team 3**.
-
-### Team 3
+This was a collaborative academic project completed by Team 3:
 
 - Akula Siri
 - K Jayadeva Satyavamsi
 - P Harshit
 - Peruri Ramya Sree
 
-The work is presented as a team project. Individual task ownership is not itemised here; the repository should not be interpreted as work completed independently by any one team member.
+## Notes
 
-## Reproducibility notes
-
-- The notebook's saved cell outputs have been cleared to keep the repository lightweight and encourage fresh execution.
-- Model metrics may vary with library versions and runtime environments.
+- The notebook is committed with its saved outputs; the repository does not automatically execute notebooks on every push.
+- Model results may vary with library versions and runtime environments.
 - This is an educational modelling exercise, not a production credit-decision system. Real credit decisions require careful fairness, explainability, privacy, and regulatory review.
