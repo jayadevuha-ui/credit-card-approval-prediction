@@ -24,7 +24,6 @@ Logistic Regression, K-Nearest Neighbors, Decision Tree, Random Forest, XGBoost,
 | `credit-card-approval-prediction.ipynb` | Main analysis and modelling notebook, including saved cell outputs |
 | `credit card_dataset.csv` | Dataset used by the notebook |
 | `requirements.txt` | Python dependencies |
-| `Credit_Card_Approval_Presentation.pptx` | Project presentation |
 
 ## Getting started
 
